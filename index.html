@@ -1,0 +1,75 @@
+
+5 <!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Bus Registration Form</title>
+</head>
+<body>
+   <center> <h2>Bus Registration Form</h2><br><hr></center>
+    <form>
+      <center><label for="name">Name: </label>
+        <input type="text"id="name" placeholder="name" value="Banti" disabled>
+        <br><br>
+
+        <label for="add">Address:</label>
+        <input type="text" id="add" placeholder="address" required>
+        <br><br>
+        <label for="phone">Contact No:</label>
+        <input type="number" id="phone" placeholder="number" required>
+        <br><br>
+
+        <label for="datalist">Source Station:</label>
+        <input list="data" required id="datalist">
+         <datalist id="data">
+
+            <option>jamkhed</option>
+            <option>pune</option>
+            <option>mumbai</option>
+            <option>batewadi</option>
+            <option>beed</option>
+            <option>ahilyanager</option>
+            <option>newasa</option>
+            <option>sambhajinager</option>
+            <option>karjat</option>
+            <option>latur</option>
+
+        </datalist><br><br>
+
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" placeholder="destination" required>
+        <br><br>
+        <label for="age">Enter your age</label>
+        <input type="number" id="age" placeholder="age">
+        <br><br>
+        
+        
+        <label for="date">Date Of Booking:</label>
+        <input type="date" id="date"required>
+        <br><br>
+        
+        <label for="journey">Date Of Journey</label>
+        <input type="date" id="journey" required>
+        <br><br>
+        
+        
+        <label for="passenger"> Numbers Of Passenger: </label>
+        <input type="number" id="passenger" placeholder="Number of P." required>
+        <br><br>
+
+        <label for="nop">Name Of Passengers:</label>
+        <input type="text" id="nop" placeholder="name of P.">
+        <br><br>
+
+
+<h4>Gender Of Passenger</h4>
+        <label><input  type="radio" name="gender" value="male"> male </label> <br><br>
+
+        <label><input  type="radio" name="gender" value="female">Female </label> <br><br>
+        
+        <button>SUBMMIT</button> </center>
+        
+
+    </form>
+</body>
+</html>
